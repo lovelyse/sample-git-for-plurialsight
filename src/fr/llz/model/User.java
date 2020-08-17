@@ -8,6 +8,19 @@ public class User {
 	public String getName() {
 		return name;
 	}
+	
+
+	public User() {
+		super();
+	}
+
+
+	public User(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+
 
 	public void setName(String name) {
 		this.name = name;
